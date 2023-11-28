@@ -26,7 +26,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002065329199"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI am a <b>Series/Movie Video file</b> store bot.\n\n \n\nWant me to send you more <b>Series/Movie</b> files?\n\n👇  <b>Join  PaxMovies</b>   👇\n\n \n\nhttps://t.me/+QajbkkNkqVtiZjY0")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1268203820").split()):
@@ -38,7 +38,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n You need to join in my Channel, <b>PaxMovies</b>, to use me\n\nKindly Please join <b>PaxMovies</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "{previouscaption}\n\n \n\n <b>PaxTV</b> 👉 @paxtv ")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
