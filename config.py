@@ -21,7 +21,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6421755358"))
 DB_URI = os.environ.get("DATABASE_URL", "postgres://pgdxczuw:r5tpCuHhd7zopsGnthttgVB0URz-Y6XP@bubble.db.elephantsql.com/pgdxczuw")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002065329199"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
